@@ -22,7 +22,7 @@ namespace COMP123_S2017_Assign05
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BMICalculator());
+            Application.Run(new BMICalculatorForm());
         }
     }
 }

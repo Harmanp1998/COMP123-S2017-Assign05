@@ -16,11 +16,41 @@ using System.Windows.Forms;
  */
 namespace COMP123_S2017_Assign05
 {
-    public partial class BMICalculator : Form
+    public partial class BMICalculatorForm : Form
     {
-        public BMICalculator()
+        public BMICalculatorForm()
         {
             InitializeComponent();
+        }
+
+        private void MetricRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void BMICalculatorForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CalculateBMIButton_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void ImerialRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
