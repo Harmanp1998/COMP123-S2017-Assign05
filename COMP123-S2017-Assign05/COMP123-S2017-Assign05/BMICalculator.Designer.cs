@@ -90,6 +90,7 @@
             this.HeightInputTextBox.Name = "HeightInputTextBox";
             this.HeightInputTextBox.Size = new System.Drawing.Size(144, 38);
             this.HeightInputTextBox.TabIndex = 4;
+            this.HeightInputTextBox.TextChanged += new System.EventHandler(this.HeightInputTextBox_TextChanged);
             // 
             // ImerialRadioButton
             // 

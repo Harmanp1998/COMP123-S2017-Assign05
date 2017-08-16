@@ -12,7 +12,7 @@ using System.Windows.Forms;
  * StudentID : 300931446
  * Date: August 4,2017
  * Description: BMI Calculator
- * Version 0.2: Height and Weight Units change implemented.
+ * Version 0.3: Reset button functional
  */
 namespace COMP123_S2017_Assign05
 {
@@ -62,7 +62,15 @@ namespace COMP123_S2017_Assign05
 
         private void ResetButton_Click(object sender, EventArgs e)
         {
+            HeightInputTextBox.Text = "";
+            WeightTextBox.Text = "";
+            BMITextBox.Text = "";
+            BMIResultsTextBox.Text = "";
+        }
 
+        private void HeightInputTextBox_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }
