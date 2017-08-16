@@ -33,7 +33,7 @@
             this.BMIResultsTextBox = new System.Windows.Forms.TextBox();
             this.HeightUnitLabel = new System.Windows.Forms.Label();
             this.HeightInputTextBox = new System.Windows.Forms.TextBox();
-            this.ImerialRadioButton = new System.Windows.Forms.RadioButton();
+            this.ImperialRadioButton = new System.Windows.Forms.RadioButton();
             this.WeightTextBox = new System.Windows.Forms.TextBox();
             this.MyWeightLabel = new System.Windows.Forms.Label();
             this.MyHeightLabel = new System.Windows.Forms.Label();
@@ -92,18 +92,18 @@
             this.HeightInputTextBox.TabIndex = 4;
             this.HeightInputTextBox.TextChanged += new System.EventHandler(this.HeightInputTextBox_TextChanged);
             // 
-            // ImerialRadioButton
+            // ImperialRadioButton
             // 
-            this.ImerialRadioButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.ImerialRadioButton.AutoSize = true;
-            this.ImerialRadioButton.Location = new System.Drawing.Point(3, 14);
-            this.ImerialRadioButton.Name = "ImerialRadioButton";
-            this.ImerialRadioButton.Size = new System.Drawing.Size(143, 35);
-            this.ImerialRadioButton.TabIndex = 0;
-            this.ImerialRadioButton.TabStop = true;
-            this.ImerialRadioButton.Text = "Imperial";
-            this.ImerialRadioButton.UseVisualStyleBackColor = true;
-            this.ImerialRadioButton.CheckedChanged += new System.EventHandler(this.ImerialRadioButton_CheckedChanged);
+            this.ImperialRadioButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.ImperialRadioButton.AutoSize = true;
+            this.ImperialRadioButton.Location = new System.Drawing.Point(3, 14);
+            this.ImperialRadioButton.Name = "ImperialRadioButton";
+            this.ImperialRadioButton.Size = new System.Drawing.Size(143, 35);
+            this.ImperialRadioButton.TabIndex = 0;
+            this.ImperialRadioButton.TabStop = true;
+            this.ImperialRadioButton.Text = "Imperial";
+            this.ImperialRadioButton.UseVisualStyleBackColor = true;
+            this.ImperialRadioButton.CheckedChanged += new System.EventHandler(this.ImerialRadioButton_CheckedChanged);
             // 
             // WeightTextBox
             // 
@@ -155,7 +155,7 @@
             this.BMITableLayout.Controls.Add(this.MyHeightLabel, 0, 1);
             this.BMITableLayout.Controls.Add(this.MyWeightLabel, 0, 2);
             this.BMITableLayout.Controls.Add(this.WeightTextBox, 1, 2);
-            this.BMITableLayout.Controls.Add(this.ImerialRadioButton, 0, 0);
+            this.BMITableLayout.Controls.Add(this.ImperialRadioButton, 0, 0);
             this.BMITableLayout.Controls.Add(this.HeightInputTextBox, 1, 1);
             this.BMITableLayout.Location = new System.Drawing.Point(4, 34);
             this.BMITableLayout.Name = "BMITableLayout";
@@ -222,7 +222,7 @@
         private System.Windows.Forms.TextBox BMIResultsTextBox;
         private System.Windows.Forms.Label HeightUnitLabel;
         private System.Windows.Forms.TextBox HeightInputTextBox;
-        private System.Windows.Forms.RadioButton ImerialRadioButton;
+        private System.Windows.Forms.RadioButton ImperialRadioButton;
         private System.Windows.Forms.TextBox WeightTextBox;
         private System.Windows.Forms.Label MyWeightLabel;
         private System.Windows.Forms.Label MyHeightLabel;

@@ -12,7 +12,7 @@ using System.Windows.Forms;
  * StudentID : 300931446
  * Date: August 4,2017
  * Description: BMI Calculator
- * Version 0.3: Reset button functional
+ * Version 0.4: Implemented BMI Calculate
  */
 namespace COMP123_S2017_Assign05
 {
@@ -46,7 +46,54 @@ namespace COMP123_S2017_Assign05
 
         private void CalculateBMIButton_Click(object sender, EventArgs e)
         {
-           
+            if (ImperialRadioButton.Checked == true)
+            {
+                double height = double.Parse(HeightInputTextBox.Text);
+                double Weight = double.Parse(WeightTextBox.Text);
+                double BMI;
+                BMI = (Weight * 703) / (height * height);
+                BMITextBox.Text = BMI.ToString();
+                if (BMI <= 18.5)
+                {
+                    BMIResultsTextBox.Text = "Underweight";
+                }
+                else if (BMI > 18.5 && BMI <= 24.9)
+                {
+                    BMIResultsTextBox.Text = "Normal";
+                }
+                else if (BMI > 25 && BMI <= 29.9)
+                {
+                    BMIResultsTextBox.Text = "Overweight";
+                }
+                else if (BMI >= 30)
+                {
+                    BMIResultsTextBox.Text = "Obese";
+                }
+            }
+            if (MetricRadioButton.Checked == true)
+            {
+                double height = double.Parse(HeightInputTextBox.Text);
+                double Weight = double.Parse(WeightTextBox.Text);
+                double BMI;
+                BMI = (Weight) / (height * height);
+                BMITextBox.Text = BMI.ToString();
+                if (BMI <= 18.5)
+                {
+                    BMIResultsTextBox.Text = "Underweight";
+                }
+                else if (BMI > 18.5 && BMI <= 24.9)
+                {
+                    BMIResultsTextBox.Text = "Normal";
+                }
+                else if (BMI > 25 && BMI <= 29.9)
+                {
+                    BMIResultsTextBox.Text = "Overweight";
+                }
+                else if (BMI >= 30)
+                {
+                    BMIResultsTextBox.Text = "Obese";
+                }
+            }
         }
 
         private void ImerialRadioButton_CheckedChanged(object sender, EventArgs e)
