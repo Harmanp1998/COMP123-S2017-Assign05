@@ -12,7 +12,7 @@ using System.Windows.Forms;
  * StudentID : 300931446
  * Date: August 4,2017
  * Description: BMI Calculator
- * Version 0.1: Created Project Files
+ * Version 0.2: Height and Weight Units change implemented.
  */
 namespace COMP123_S2017_Assign05
 {
@@ -25,7 +25,8 @@ namespace COMP123_S2017_Assign05
 
         private void MetricRadioButton_CheckedChanged(object sender, EventArgs e)
         {
-
+            HeightUnitLabel.Text = "m";
+            WeightUnitLabel.Text = "kg";
         }
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
@@ -50,7 +51,8 @@ namespace COMP123_S2017_Assign05
 
         private void ImerialRadioButton_CheckedChanged(object sender, EventArgs e)
         {
-
+            HeightUnitLabel.Text = "inches";
+            WeightUnitLabel.Text = "pounds";
         }
 
         private void HeightUnitLabel_Click(object sender, EventArgs e)
