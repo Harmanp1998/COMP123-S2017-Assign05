@@ -6,9 +6,9 @@ using System.Windows.Forms;
 /*
  * Name: Harmanpreet Singh
  * StudentID : 300931446
- * Date: August 4,2017
+ * Date: August 15,2017
  * Description: BMI Calculator
- * Version 0.1: Created Project Files
+ * Version 0.2: Implemented Splash Form
  */
 namespace COMP123_S2017_Assign05
 {
@@ -23,6 +23,8 @@ namespace COMP123_S2017_Assign05
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new SplashForm());
+
+            Application.Run(new BMICalculatorForm());
         }
     }
 }

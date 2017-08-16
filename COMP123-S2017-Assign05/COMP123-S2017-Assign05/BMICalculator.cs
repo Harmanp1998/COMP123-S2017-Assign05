@@ -52,5 +52,15 @@ namespace COMP123_S2017_Assign05
         {
 
         }
+
+        private void HeightUnitLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ResetButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
