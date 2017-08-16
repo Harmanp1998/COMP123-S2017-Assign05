@@ -30,11 +30,11 @@
         {
             this.BMITableLayout = new System.Windows.Forms.TableLayoutPanel();
             this.MetricRadioButton = new System.Windows.Forms.RadioButton();
-            this.ImerialRadioButton = new System.Windows.Forms.RadioButton();
             this.MyHeightLabel = new System.Windows.Forms.Label();
             this.MyWeightLabel = new System.Windows.Forms.Label();
             this.HeightInputTextBox = new System.Windows.Forms.TextBox();
             this.WeightTextBox = new System.Windows.Forms.TextBox();
+            this.ImerialRadioButton = new System.Windows.Forms.RadioButton();
             this.BMITextBox = new System.Windows.Forms.TextBox();
             this.CalculateBMIButton = new System.Windows.Forms.Button();
             this.BMIResultsTextBox = new System.Windows.Forms.TextBox();
@@ -78,19 +78,6 @@
             this.MetricRadioButton.UseVisualStyleBackColor = true;
             this.MetricRadioButton.CheckedChanged += new System.EventHandler(this.MetricRadioButton_CheckedChanged);
             // 
-            // ImerialRadioButton
-            // 
-            this.ImerialRadioButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.ImerialRadioButton.AutoSize = true;
-            this.ImerialRadioButton.Location = new System.Drawing.Point(3, 16);
-            this.ImerialRadioButton.Name = "ImerialRadioButton";
-            this.ImerialRadioButton.Size = new System.Drawing.Size(143, 35);
-            this.ImerialRadioButton.TabIndex = 0;
-            this.ImerialRadioButton.TabStop = true;
-            this.ImerialRadioButton.Text = "Imperial";
-            this.ImerialRadioButton.UseVisualStyleBackColor = true;
-            this.ImerialRadioButton.CheckedChanged += new System.EventHandler(this.ImerialRadioButton_CheckedChanged);
-            // 
             // MyHeightLabel
             // 
             this.MyHeightLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
@@ -126,6 +113,19 @@
             this.WeightTextBox.Name = "WeightTextBox";
             this.WeightTextBox.Size = new System.Drawing.Size(143, 38);
             this.WeightTextBox.TabIndex = 5;
+            // 
+            // ImerialRadioButton
+            // 
+            this.ImerialRadioButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.ImerialRadioButton.AutoSize = true;
+            this.ImerialRadioButton.Location = new System.Drawing.Point(3, 16);
+            this.ImerialRadioButton.Name = "ImerialRadioButton";
+            this.ImerialRadioButton.Size = new System.Drawing.Size(143, 35);
+            this.ImerialRadioButton.TabIndex = 0;
+            this.ImerialRadioButton.TabStop = true;
+            this.ImerialRadioButton.Text = "Imperial";
+            this.ImerialRadioButton.UseVisualStyleBackColor = true;
+            this.ImerialRadioButton.CheckedChanged += new System.EventHandler(this.ImerialRadioButton_CheckedChanged);
             // 
             // BMITextBox
             // 
